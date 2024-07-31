@@ -72,6 +72,7 @@ function App() {
             </span>
           ))}
           <span
+          className={ Page < Products.length / 10 ? "" : "pagination__disabled"}
             onClick={() => {
               nextPageHandler(Page);
             }}

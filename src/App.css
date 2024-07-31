@@ -37,11 +37,14 @@
   padding: 15px 20px;;
   border: 1px solid rgb(220,220,220);
   cursor: pointer;
+}
 
+.pagination > span:hover {
+  background: #cccccc;
 }
 
 .pagination__active {
-  background: #1737a9;
+  background: #a9a9a9;
 }
 
 .pagination__disabled {
