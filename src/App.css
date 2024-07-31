@@ -39,3 +39,11 @@
   cursor: pointer;
 
 }
+
+.pagination__active {
+  background: #1737a9;
+}
+
+.pagination__disabled {
+  visibility: hidden;
+}
